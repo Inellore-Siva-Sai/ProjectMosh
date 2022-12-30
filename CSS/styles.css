@@ -282,8 +282,6 @@ a {
 
 /* Cards */
 .card {
-    width: 40%;
-    padding: 4rem;
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;
     overflow: hidden;
@@ -444,49 +442,48 @@ a {
 }
 
 @media screen and (min-width:768px) {
-    .grid--1x2 {
-        grid-template-columns: repeat(2,1fr);
-    }
+   .grid--1x2 { 
+    grid-template-columns: repeat(2,1fr);
+   } 
 }
 
 @media screen and (min-width:1024px) {
-    .grid--1x3 {
-        grid-template-columns: repeat(3,1fr);
-    }
-}
+    .grid--1x3 { 
+     grid-template-columns: repeat(3 ,1fr);
+    } 
+ }
 
-/* Grids */
+ /* Testimonial */
 
-.testimonial {
+ .testimonial {
     padding: 3rem;
-}
-
-.testimonial__image > img{
-    width: 100%;
-}
-
-.testimonial__image {
+ }
+ .testimonial__image {
     position: relative;
-}
+ }
 
-.testimonial__image > .icon-container {
+ .testimonial__image > img {
+    width: 100%;
+ }
+ .testimonial__image > .icon-container {
     position: absolute;
-    top:3rem;
+    top: 3rem;
     right: -32px;
-}
-
-@media screen and (min-width: 768px) {
+ }
+ @media screen and (min-width:768px) {
+    
     .testimonial__image {
-      margin: 0;
-    }
-  
+        margin: 0;
+      }
+
     .testimonial .quote,
     .testimonial .quote__author {
-      font-size: 2.4rem;
+        font-size: 2.4rem;
     }
-  
+
     .testimonial .quote {
-      margin-left: 6rem;
-      margin-right: 0;
+        margin-left: 6rem;
+        margin-right: 0;
     }
-  }
+ } 
+
